@@ -31,3 +31,12 @@
     text-decoration: none;
     color: azure;
 }
+
+.profile-picture {
+    display: block;
+    float: left;
+    margin-left: 150px;
+    max-width: 150px;
+    border-radius: 40%;
+}
+
