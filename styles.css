@@ -33,17 +33,17 @@
 }
 
 .profile-picture {
-    display: block;
-    float: left;
-    margin-left: 150px;
+    float: right;
     max-width: 150px;
     border-radius: 40%;
 }
 
-.projects {
-    display: block;
-    margin-top: 150px;
-    margin-left: 200px;
+
+
+.about-me {
+    font-size: 20px;
+    margin-left: 20%;
+    
 }
 
 .dog-1{
@@ -52,3 +52,28 @@
     margin-right: auto;
     width: 40%;
 }
+.images {
+    display: inline;
+    margin-left: 20%;
+}
+
+.side {
+    margin-left: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+.contact-me {
+    font-size: 20px;
+}
+.contact-me li {
+    list-style: none;
+    display: inline;
+    padding: 3%;
+    font-size: 20px;
+}
+

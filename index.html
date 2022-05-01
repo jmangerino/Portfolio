@@ -6,11 +6,10 @@
     <link rel="stylesheet" href="styles.css">
     <title>Joshua Mangerino's Portfolio</title>
 </head>
-<!--test-->
 <body>
     <header class="header">
         <h1>Joshua Mangerino</h1>
-        
+        <img src="images/Chibi.jpg" alt="Profile Picture" class="profile-picture">
         <nav>
             <ul>
                 <li>
@@ -24,9 +23,9 @@
                 </li>
             </ul>
         </nav>
+        
     </header>
     <main class="about-me">
-            <img src="images/Chibi.jpg" alt="Profile Picture" class="profile-picture">    
             <p> My name is Joshua Mangerino. I was born in England, but grew up in California.
             I love playing video games and reading books. I am currently taking a class at
             Universty of Utah for Web Devlopment. Hoping to change my career to something to do with
@@ -37,18 +36,34 @@
     <section class="projects">
         
         <img src="images/dogs 1.jpg" alt="Place Holder Image" class="dog-1">
-        <img src="images/dog 2.jpg" alt="Place Holder Image">
-        <img src="images/dog 3.jpg" alt="Place Holder Image">
-        <img src="images/dog 4.jpg" alt="Place Holder Image">
-        <img src="images/dog 5.jpg" alt="Place Holder Image">
+        <div class="row">
+            <div class="column">
+                <img src="images/dog 2.jpg" alt="Place Holder Image">
+            </div>
+            </div class="column">
+                <img src="images/dog 3.jpg" alt="Place Holder Image">
+            </div>
+            <div class="column">
+                <img src="images/dog 4.jpg" alt="Place Holder Image">
+            </div>
+            <div class="column">
+                <img src="images/dog 5.jpg" alt="Place Holder Image">
+            </div>
+        </div>
     </section>
 <aside class="side">
     <h2>About Me</h2>
     <h3>Projects</h3>
 </aside>
-<footer>
+<footer class="contact-me">
     <h4>Contact Me</h4>
-    
+    <p>
+        <ul class="footer-contact">
+            <li>999-999-9999</li>
+            <li>joshuamangerino@gmail.com</li>
+            <li a href="https://github.com/jmangerino">github</li> 
+        </ul>
+    </p>
 </footer>
 
 
