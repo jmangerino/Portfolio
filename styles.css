@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
 }
-/* this is for the header */
+/* this is setting the header*/
 .header {
     padding: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -60,11 +60,20 @@
 .side {
     margin-left: 20px;
     padding: 20px;
-    clear: both;
-    float: left;
+    top: 0;
+    left: 0;
     width: 20%;
     height: 100%;
     background-color: cornflowerblue;
+}
+
+.side h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.side h3 {
+    text-align: center;
 }
 
 .contact-me {
