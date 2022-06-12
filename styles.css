@@ -40,10 +40,14 @@
     
 }
 /* this is for project images*/
+img {
+    max-width: 100%;
+}
+
 .main-image {
     height: 400px;
     padding: 20px;
-
+    
 }
 
 .second-image {
@@ -81,4 +85,10 @@
 .list li {
     float: left;
     margin: 10px;
+} 
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; 
+    }
 }
